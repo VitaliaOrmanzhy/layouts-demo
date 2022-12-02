@@ -4,11 +4,33 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Sintony';
+    src: url('fonts/Sintony-Regular.ttf') format('opentype');
+    display: optional;
+}
+
 .container {
     max-width: 1282px;
     padding: 0 20px;
     margin: 155px auto;
     display: flex;
-    justify-content: space-between;
+    gap: 30px;
+}
+
+.section__text {
+    font-family: 'Sintony';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 140%;
+}
+
+.col-4 {
+    width: 4/12 * 100%;
+}
+
+.col-8 {
+    width: 8/12 * 100%;
 }
 
