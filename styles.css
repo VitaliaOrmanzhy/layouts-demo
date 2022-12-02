@@ -3,3 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container {
+    max-width: 1282px;
+    padding: 0 20px;
+    margin: 155px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
